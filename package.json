@@ -1,0 +1,15 @@
+{
+  "name": "llm-text-tools-extension",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild src/*.ts --outdir=dist --bundle"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.323",
+    "esbuild": "^0.25.4",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}

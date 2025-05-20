@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "TextMind",
+  "version": "1.0.0",
+  "description": "Get instant AI-powered responses for any selected text on the web",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "scripting",
+    "activeTab",
+    "windows"
+  ],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_icon": "public/icon.png"
+  },
+  "icons": {
+    "16": "public/icon.png",
+    "48": "public/icon.png",
+    "128": "public/icon.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
